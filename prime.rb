@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(integer)
   cnt = 2 
-  if integer > 0 
+  if integer > 1 
     lastnumber = Integer.sqrt(integer).to_i
   else return false 
   end
