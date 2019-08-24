@@ -5,7 +5,7 @@ def prime?(integer)
     lastnumber = Integer.sqrt(integer).to_i
   else return false 
   end
-    range = (2..lastnumber).to_a
+  range = (2..lastnumber).to_a
   
   range.all? do |diviser|
     integer%diviser != 0
